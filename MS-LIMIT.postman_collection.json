@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "4b844e2e-38be-4790-8b3a-957cbd14b475",
+		"name": "MS-LIMIT",
+		"description": "FOR MS-LIMIT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LIMIT CONTROLLER",
+			"item": [
+				{
+					"name": "getCardLimit",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test.client.com/v2/ms-limit/cards?uid=1234567890123456",
+							"protocol": "https",
+							"host": [
+								"test",
+								"client",
+								"com"
+							],
+							"path": [
+								"v2",
+								"ms-limit",
+								"cards"
+							],
+							"query": [
+								{
+									"key": "uid",
+									"value": "1234567890123456"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getCardLimit",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://test.client.com/v2/ms-limit/cards?uid=1234567890123456",
+									"protocol": "https",
+									"host": [
+										"test",
+										"client",
+										"com"
+									],
+									"path": [
+										"v2",
+										"ms-limit",
+										"cards"
+									],
+									"query": [
+										{
+											"key": "uid",
+											"value": "1234567890123456"
+										}
+									]
+								}
+							},
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			],
+			"description": "FOR LIMIT CONTROLLER"
+		}
+	]
+}
