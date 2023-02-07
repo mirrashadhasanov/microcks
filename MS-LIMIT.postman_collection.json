@@ -2,7 +2,7 @@
 	"info": {
 		"_postman_id": "4b844e2e-38be-4790-8b3a-957cbd14b475",
 		"name": "MS-LIMIT",
-		"description": "FOR MS-LIMIT",
+		"description": "version=1.0 - This is a CLIENT API description",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
