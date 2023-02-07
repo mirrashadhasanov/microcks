@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "80e091d2-2c3c-40f0-b7d6-65ea6356259d",
+		"name": "MICROCKS-TEST",
+		"description": "version=1.0 - This is a CLIENT API description",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "TEST-CLIENT",
+			"description": "",
+			"item": [
+				{
+					"name": "Get user data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://test.client.com/v2/user?id=12345",
+							"protocol": "https",
+							"host": [
+								"test",
+								"client",
+								"com"
+							],
+							"path": [
+								"v2",
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "12345"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get user data",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://test.client.com/v2/user?id=12345",
+									"protocol": "https",
+									"host": [
+										"test",
+										"client",
+										"com"
+									],
+									"path": [
+										"v2",
+										"user"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "12345"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "json",
+							"header": null,
+							"cookie": [],
+							"body": "{\n    \"id\": 12345,\n    \"name\": \"Miri\",\n    \"surname\": \"Hasanov\",\n    \"age\": 24\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
