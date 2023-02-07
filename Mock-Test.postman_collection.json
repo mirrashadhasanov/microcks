@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "19aa61fd-04e3-4e2f-abcf-e006e401dc8b",
+		"name": "Mock-Test",
+		"description": "version=1.0 - This is a PetStore API description",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "MIRI-TEST",
+			"description": "",
+			"item": [
+				{
+					"name": "getMiri",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://mhm?fin=123456",
+							"protocol": "http",
+							"host": [
+								"mhm"
+							],
+							"query": [
+								{
+									"key": "fin",
+									"value": "123456"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "getMiri",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://miri?id=123456",
+									"protocol": "http",
+									"host": [
+										"miri"
+									],
+									"query": [
+										{
+											"key": "id",
+											"value": "123456"
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": "json",
+							"header": null,
+							"cookie": [],
+							"body": "{\n    \"sK\": \"1234567\",\n    \"guid\": \"1234567\",\n    \"guida\": \"12345678\",\n    \"id\": \"12345678\"\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
